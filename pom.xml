@@ -31,6 +31,23 @@
             <version>2.17.0</version>
         </dependency>
         <!-- slf4j and log4j2 end -->
+
+
+        <!-- http请求 start -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.5.12</version>
+        </dependency>
+        <!-- http请求 end -->
+
+
     </dependencies>
 
 </project>

@@ -18,6 +18,16 @@ public class StreamUtils {
     /**
      * 关闭流
      * @param autoCloseable 关闭对象
+     * @throws RuntimeException
+     */
+    public static void closeStream(AutoCloseable autoCloseable) {
+        closeStream(autoCloseable, false);
+    }
+
+
+    /**
+     * 关闭流
+     * @param autoCloseable 关闭对象
      * @param throwException 是否继续抛异常 true:抛出异常， false: 吞掉异常
      * @throws RuntimeException
      */
